@@ -1,0 +1,138 @@
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font-size: 1em;
+    line-height: 1.4;
+    background: url(../img/bg.jpg);
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 70px;
+    margin-bottom: 50px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+    border: none;
+    height: auto;
+    width: 100%;
+}
+
+#header {
+	background: yellow;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.timer {
+    background: #F6A2C2;
+    margin-bottom: 40px;
+    border-top: 2px solid #484848;
+    border-bottom: 2px solid #484848;
+    padding: 36px 0px 0px 0px;
+}
+
+.header-container {
+    background: #484848;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 200;
+}
+
+nav#topNav {
+    width: 100%;
+}
+
+nav#topNav li {
+    float: left;
+}
+
+nav#topNav li a {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    font-size: .9em;
+    transition: all 0.5s ease;
+    height: 40px;
+    line-height: 40px;
+    border-right: 1px solid #fff;
+    -webkit-transition: all .5s ease;
+}
+
+nav#topNav li a:hover {
+    color: #ed5992;
+    background: #595959;
+}
+
+.n1 {width: 19.9%;border-left: 1px solid #fff;}
+.n2 {width: 20%;}
+.n3 {width: 20%;}
+.n4 {width: 20%;}
+li.n3 a:hover {background: #484848 !important;}
+.n5 {width: 20%;}
+
+
+#topDate {
+    text-align: center;
+    padding-top: 1px;
+}
+
+section#ourStory h2 {
+    text-align: center;
+}
+
+section#bigDay {
+    margin: 0 5% 3%;
+}
+
+section#bigDay h2 {
+    text-align: center;
+}
+
+section#accommodation {
+    margin: 2% 5% 0 5%;
+    padding-bottom: 4%;
+}
+
+section#accommodation h2 {
+    text-align: center;
+}
+
+footer#contactUs h2 {
+    text-align: center;
+}
+
+.google-maps {
+position: relative;
+padding-bottom: 50%; // This is the aspect ratio
+height: 0;
+overflow: hidden;
+}
+.google-maps iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100% !important;
+height: 100% !important;
+}
+
+
+
+
+
+
+
+
+
